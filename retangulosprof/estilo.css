@@ -1,0 +1,28 @@
+.body{
+	background-color: #000000;
+}
+
+.Container{
+	height: 300px;
+	width: 70%;
+	background-color: #000000;	
+	border: 1px solid #000000;
+	margin: 20% auto;
+	box-shadow: 20% auto;	
+}
+
+.ContainerEsquerdo{
+	float: left;
+}
+
+.ContainerEsquerdo, .ContainerDireito{
+	height: 220px;
+	width: 30%;
+	background-color: #696969;
+	padding: 20px;
+	margin: 20px;
+}
+
+.ContainerDireito{
+	float: right;
+}
